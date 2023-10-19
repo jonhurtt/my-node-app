@@ -1,62 +1,13 @@
-# Simple Node.js + Docker example
+# my-node-app
+NodeJs to Docker to ECR to ECS to Fargate with Terraform
 
-The simplest possible example of using Node.js and Docker.
+https://www.codecapers.com.au/crafting-build-pipelines-with-docker/
+https://github.com/ashleydavis/docker-nodejs-examples/tree/master/multi
 
-## Files
+https://github.com/ashleydavis/docker-nodejs-examples/tree/master
 
-- simple/
-  - src/index.js      Example Express web server.
-  - .dockerignore     Make Docker ignore specified files.
-  - Dockerfile        Script file for building our Docker image.
-  - package.json      Node.js package file, specifies npm dependencies.
+Hands-on: Setup AWS ECR, ECS and Fargate for NodeJS Application in a Docker Image
+https://www.youtube.com/watch?v=RgLt3R2A20s
 
-## Setup
-
-You need Node.js and Docker installed.
-
-First change to the directory and install dependencies:
-
-```bash
-cd simple
-npm install
-```
-
-## Directly run
-
-The example Node.js application is just "Hello world", you run it directly like this:
-
-```bash
-npm start
-```
-
-## Build and run using Docker
-
-To build the Docker image:
-
-```bash
-npm run docker:build
-```
-
-To run the Docker image:
-
-```bash
-npm run docker:run
-```
-
-To see what Docker images you have locally:
-
-```bash
-npm run docker:ls
-```
-
-To see what Docker containers you have running:
-
-```bash
-npm run docker:ps
-```
-
-To stop the container:
-
-```bash
-npm run docker:stop
-```
+How to Deploy a Dockerised Application on AWS ECS With Terraform
+https://medium.com/avmconsulting-blog/how-to-deploy-a-dockerised-node-js-application-on-aws-ecs-with-terraform-3e6bceb48785
