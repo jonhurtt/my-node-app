@@ -2,9 +2,9 @@
   "name": "simple",
   "version": "1.0.0",
   "description": "Simplest possible use of Node.js and Docker.",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/app.js",
     "docker:ls": "docker image ls",
     "docker:ps": "docker container ls",
     "docker:build": "docker build --file Dockerfile --tag=helloworld .",
