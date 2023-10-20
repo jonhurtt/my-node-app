@@ -2,6 +2,10 @@
 NodeJs to Docker to ECR to ECS to Fargate with Terraform
 
 1. Building Dockerfile for httpd - https://hub.docker.com/_/httpd
+2. Configure Workflow permissions for Actions to Read and Write
+3. Configure Settings (Seetings_>Securit->Actions)
+    - For Image Scan Workflow - PCC_USER, PCC_PASS & PCC_CONSOLE_URL
+    - For ECR Push - AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY
 
 
 ===
