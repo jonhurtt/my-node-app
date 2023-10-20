@@ -1,5 +1,5 @@
 # my-node-app
-NodeJs to Docker to ECR to ECS to Fargate with Terraform
+NodeJs to Docker to ECR to ECS to Fargate with Terraform. 
 
 1. Setup
 2. Enabling Code Scanning for Repository for Sarif Upload (if private repo - enabled by default with public)
