@@ -1,6 +1,10 @@
 # my-node-app
 NodeJs to Docker to ECR to ECS to Fargate with Terraform
 
+1. Building Dockerfile for httpd - https://hub.docker.com/_/httpd
+
+
+===
 https://www.codecapers.com.au/crafting-build-pipelines-with-docker/
 
 https://github.com/ashleydavis/docker-nodejs-examples/tree/master/multi
